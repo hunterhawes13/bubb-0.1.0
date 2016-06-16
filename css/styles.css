@@ -1,4 +1,7 @@
-
+/*
+html{
+	background-color: grey;
+}*/
 .relative {
     position: relative;
 }
@@ -14,11 +17,14 @@
 }
 
 .logo{
-    display: inline-block;
-    width: 50px;
+    position: absolute; 
+    top: 61px;
+    left: 59px;
+    width: 100px;
     height: 26px;
-    background: url(http://www.bubb.com.br/assets/img/sprite.png) no-repeat 0 0;
+    background: url("file:///Users/hunterhawes/projects/bubb/imgs/bb.png") no-repeat 0 0;
     vertical-align: middle;
+    z-index: ;
 }
 .ball {
 		display: block;
@@ -34,12 +40,16 @@
     float: left;
 }
 	.ml5 {
+		position: absolute;
+		top: 68px;
     margin-left: 5px!important;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 .f11 {
     font-size: 11px;
+    font-family: sans-serif;
     display: inline-block;
+    letter-spacing: 2px;
        
 }
 
@@ -50,7 +60,6 @@ header {
     border-bottom: 1px solid #EEE;
 		display: inline-block;
     width: 100%;
-    vertical-align:left; 
  /*   border: red dashed 1px;*/
 }
 
@@ -81,6 +90,53 @@ a {
     -moz-transition: all .2s;
     -o-transition: all .2s;
     transition: all .2s;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cont {
+	
+	    padding: 26px 9px 20px 9px;
+}
+
+header .socials .item-social {
+    float: right;
+}
+
+.pull-right {
+    float: right;
+}
+header .contact .link-email {
+    margin: 4px 0 0 0;
+    color: grey;
+}
+header .contact .link-phone {
+    color: #4d4d4d;
+
+}
+.block {
+    display: block;
+}
+.f-h4 {
+    font-size: 18px;
+}
+.bold {
+    font-family: 'Gt Walsheim Bold',sans-serif;
+    font-weight: bold;
+    float: right;
+}
+
+header .socials .item-social .link-social {
+    display: inline-block;
+    padding: 32px 13px 20px 13px;
+    font-size: 18px;
+    color: #ccc;
 }
 /*
 li {
