@@ -1,0 +1,24 @@
+{
+  "name": "bubb",
+  "authors": [
+    "Hunter Hawes <hunterhawes13@gmail.com>"
+  ],
+  "description": "bower local packages",
+  "main": "normalize https://github.com/tehsis/normalize.git",
+  "keywords": [
+    "norm"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tehsis/normalize.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.1.1",
+    "typeplate-starter-kit": "^3.0.1"
+  }
+}

@@ -1,0 +1,36 @@
+.top {
+	position: relative;
+	display: inherit;
+	margin-top: 1px;
+}
+
+li {
+	float:left;
+	display: inline-block;
+	width:100px;
+	height:50px;
+	margin-top: 4px;
+	padding-top: 8x;
+	background-color:white;
+	border-bottom: 2px grey solid;
+	text-align: center;
+
+}
+li:hover {
+	float:left;
+	display: inline-block;
+	width:100px;
+	height:50px;
+	margin-top: 4px;
+	padding-top: 8px;
+	background-color:grey;
+	opacity: .8;
+
+}
+
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+;
+}
+
