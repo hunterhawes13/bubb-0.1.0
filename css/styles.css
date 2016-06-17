@@ -69,9 +69,21 @@ header .menu .item-menu .link-menu {
     color: #4d4d4d;
     border-bottom: 4px solid #EEE;
 }
+header .menu .item-menu .link-menu:hover {
+    display: inline-block;
+    padding: 26px 9px 20px 9px;
+    color: #3DAFCA;
+    border-bottom: 4px solid #3DAFCA;
+}
 header .menu {
     margin: 0 0 0 150px;
     font-size: 16px;
+}
+li:hover {
+
+	color: #3DAFCA;
+	opacity: .8;
+
 }
 
 li {
@@ -105,13 +117,26 @@ a {
 	    padding: 26px 9px 20px 9px;
 }
 
+header .contact {
+    margin: 28px 0 0 35px;
+}
+
 header .socials .item-social {
     float: right;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .pull-right {
     float: right;
 }
+
 header .contact .link-email {
     margin: 4px 0 0 0;
     color: grey;
@@ -151,12 +176,7 @@ li {
 	text-align: center;
 
 }*/
-li:hover {
 
-	background-color:grey;
-	opacity: .8;
-
-}
 ol, ul {
     list-style: none;
 }
@@ -203,6 +223,12 @@ font-family: 'Gt Walsheim Regular','Open Sans', sans-serif;
     height: 26px;
     vertical-align:middle; 
 	}
+.f13 {
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
 
 	.ni {
 	border: 0,1,0,1;
@@ -214,3 +240,18 @@ font-family: 'Gt Walsheim Regular','Open Sans', sans-serif;
 	height: 400px;
 
 }
+
+.d12 {
+	margin-top: 47px:
+	;
+	.t1{
+		font-weight: light;
+		font-style:  light;
+	}
+
+	.text-center {
+		font-family: sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+		text-align: center;
+	}
