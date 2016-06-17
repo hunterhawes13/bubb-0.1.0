@@ -225,6 +225,14 @@ h1 {
 	letter-spacing: -3px
 }
 
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+  color: #999;
+  font-size: 15px;
+
+}
+
 .heart {
 	width: auto;
 	height: auto;
@@ -293,13 +301,7 @@ h2 {
 }
 
 
-h3{
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	font-size: 14px;
-	padding-top: 40px;
-	color: #e6e6e6;
-}
+
 h4{
 font-family: 'Gt Walsheim Regular','Open Sans', sans-serif;
 	text-align: center;
@@ -365,5 +367,56 @@ font-family: 'Gt Walsheim Regular','Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    padding: 0 47px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
+
+}
+
+.img-abs {
+	background-image: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/grass/natural-green-trimmed-grass-sport-field-background-header.jpg");
+  background-color: #cccccc;
+	display: inline-block;
+  width: 50%;
+  float: left;
+  min-height: 235px; 
+}
+.img-abs:hover {
+	
+}
+
+.img-abs2 {
+	background-image: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/basketball/basketball-court-header.jpg");
+    background-color: #cccccc;
+	display: inline-block;
+    width: 50%;
+    float: left;
+    min-height: 235px;
+}
+
+.projects .list-sites .box-site {
+	display: inline-block;
+    width: 50%;
+    min-height: 235px;
+    float: left;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+.forms {
+	    display: inline-block;
+    text-align: start;
+}
+
+#form-contact {
+    display: inline-block;
+    max-width: 830px;
+}
+}
 
